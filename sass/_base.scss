@@ -11,6 +11,8 @@
   --color-grey-dark-1: #333;
   --color-grey-dark-2: #777;
   --color-grey-dark-3: #999;
+
+  --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, 0.3);
 }
 
 * {
@@ -43,4 +45,39 @@ body {
   background-repeat: no-repeat;
 
   min-height: 100vh;
+}
+
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+a {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+p a {
+  display: inline;
+}
+
+img,
+video,
+iframe {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-fit: fill;
 }
