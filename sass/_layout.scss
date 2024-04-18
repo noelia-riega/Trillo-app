@@ -20,18 +20,22 @@
 
 .content {
   display: flex;
-  flex-flow: row nowrap;
-  justify-content: flex-start;
-  align-items: center;
 }
 
 .sidebar {
   background-color: var(--color-grey-dark-1);
 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
   flex: 0 0 18%;
 }
 
 .hotel-view {
+  // TEST
+  height: 80rem;
+
   background-color: orangered;
 
   flex: 1;

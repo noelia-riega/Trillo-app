@@ -61,23 +61,3 @@ strong {
   font-size: inherit;
   font-weight: inherit;
 }
-
-a {
-  display: block;
-  color: inherit;
-  text-decoration: none;
-}
-
-p a {
-  display: inline;
-}
-
-img,
-video,
-iframe {
-  display: block;
-  max-width: 100%;
-  width: 100%;
-  object-fit: cover;
-  object-fit: fill;
-}
